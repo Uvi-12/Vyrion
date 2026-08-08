@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Vyrion: finding and fixing Ghost Approvals in AI agent, workflow, and CI/CD gates"
+message: "If you use Vyrion or build on this research, please cite it."
+type: software
+authors:
+  - family-names: Pradhan
+    given-names: Yuvraj
+version: 0.2.0-beta
+license: Apache-2.0
+repository-code: "https://github.com/Uvi-12/vyrion"
+keywords:
+  - agentic AI security
+  - human-in-the-loop
+  - approval provenance
+  - workflow security
+  - CI/CD security
