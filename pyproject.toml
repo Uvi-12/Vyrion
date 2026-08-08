@@ -1,0 +1,96 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vyrion"
+dynamic = ["version"]
+description = "Find and fix Ghost Approvals: forged human-approval bypasses in AI agent, workflow, and CI/CD gates."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Yuvraj Pradhan", email = "yuvraj0227@gmail.com" },
+  { name = "Archana Kumari", email = "archanashalu14@gmail.com" },
+  { name = "Abhishek Pradhan", email = "abhishekpradahan0103@gmail.com" },
+]
+keywords = [
+  "agentic-ai", "human-in-the-loop", "approval-provenance", "workflow-security",
+  "ci-cd-security", "llm-security", "ghost-approvals",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Topic :: Security",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+  "cryptography>=41.0",
+]
+
+[project.optional-dependencies]
+# Pretty console output for the CLI.
+cli = ["rich>=13.0"]
+
+# Development and testing.
+dev = ["pytest>=7.0", "pytest-cov>=4.0", "ruff>=0.4", "mypy>=1.8"]
+
+# One extra per supported framework, so you only install what you are testing and
+# framework dependency pins never collide. Example:  pip install "vyrion[langgraph]"
+langgraph      = ["langgraph>=0.2", "langgraph-checkpoint-sqlite>=1.0"]
+llamaindex     = ["llama-index-core>=0.11"]
+burr           = ["burr>=0.40"]
+dbos           = ["dbos>=0.20"]
+crewai         = ["crewai>=1.0"]
+openai_agents  = ["openai-agents>=0.1"]
+google_adk     = ["google-adk>=2.0"]
+autogen        = ["autogen-agentchat>=0.7", "autogen-core>=0.7"]
+haystack       = ["haystack-ai>=3.0"]
+strands        = ["strands-agents>=1.0"]
+agno           = ["agno>=2.0"]
+semantic_kernel = ["semantic-kernel>=1.40"]
+airflow        = ["apache-airflow>=3.0"]
+# genkit and vercel_ai are Node frameworks; install them with npm, not pip:
+#   npm install genkit ai
+
+[project.scripts]
+vyrion = "vyrion.cli.app:main"
+
+[project.urls]
+Homepage = "https://github.com/Uvi-12/vyrion"
+Documentation = "https://github.com/Uvi-12/vyrion/tree/main/docs"
+Issues = "https://github.com/Uvi-12/vyrion/issues"
+
+[tool.hatch.version]
+path = "src/vyrion/_version.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vyrion"]
+
+
+[tool.hatch.build]
+include = [
+  "src/vyrion/**/*.py",
+  "src/vyrion/**/*.mjs",
+  "src/vyrion/**/*.ts",
+  "src/vyrion/**/*.json",
+  "src/vyrion/_fixtures/**",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.mypy]
+python_version = "3.9"
+ignore_missing_imports = true
