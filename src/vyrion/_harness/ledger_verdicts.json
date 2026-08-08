@@ -1,0 +1,893 @@
+{
+  "LangGraph": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Apache Burr": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "CrewAI": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Haystack": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "LlamaIndex Workflows": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Google ADK": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "OpenAI Agents SDK": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Semantic Kernel": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Microsoft Agent Framework": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Replay",
+      "Supress"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "RESISTANT",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "RESISTANT"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Strands Agents SDK": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Agno": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "AutoGen": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "PydanticAI": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "RESISTANT",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "BeeAI": {
+    "category": "agentic-python",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "RESISTANT",
+      "Rebind": "EXPOSED*/RESISTANT",
+      "Replay": "EXPOSED*/RESISTANT",
+      "Supress": "EXPOSED*/RESISTANT",
+      "Launder": "EXPOSED*"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "live",
+      "Replay": "live",
+      "Supress": "live",
+      "Launder": "live"
+    }
+  },
+  "Vercel AI SDK": {
+    "category": "agentic-node",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Genkit": {
+    "category": "agentic-node",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Mastra": {
+    "category": "agentic-node",
+    "native_exposed_techniques": [
+      "Rebind",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "RESISTANT",
+      "Rebind": "EXPOSED",
+      "Replay": "RESISTANT",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Inngest": {
+    "category": "agentic-node",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "RESISTANT",
+      "Rebind": "RESISTANT",
+      "Replay": "RESISTANT",
+      "Supress": "RESISTANT",
+      "Launder": "RESISTANT"
+    },
+    "all_tiers": {
+      "Forge": "live",
+      "Rebind": "live",
+      "Replay": "live",
+      "Supress": "live",
+      "Launder": "live"
+    }
+  },
+  "DBOS Transact": {
+    "category": "durable",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Apache Airflow": {
+    "category": "durable",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Prefect": {
+    "category": "durable",
+    "native_exposed_techniques": [
+      "Rebind",
+      "Replay",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "RESISTANT",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "SpiffWorkflow": {
+    "category": "durable",
+    "native_exposed_techniques": [
+      "Forge",
+      "Rebind",
+      "Supress",
+      "Launder"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "native",
+      "Replay": "native (prior)",
+      "Supress": "native",
+      "Launder": "native"
+    }
+  },
+  "Dapr Workflow": {
+    "category": "durable",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "live",
+      "Rebind": "live",
+      "Replay": "live",
+      "Supress": "live",
+      "Launder": "live"
+    }
+  },
+  "Temporal": {
+    "category": "durable",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "RESISTANT",
+      "Rebind": "RESISTANT",
+      "Replay": "RESISTANT",
+      "Supress": "RESISTANT",
+      "Launder": "RESISTANT"
+    },
+    "all_tiers": {
+      "Forge": "live",
+      "Rebind": "live",
+      "Replay": "live",
+      "Supress": "live",
+      "Launder": "live"
+    }
+  },
+  "Restate": {
+    "category": "durable",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "RESISTANT",
+      "Rebind": "RESISTANT",
+      "Replay": "RESISTANT",
+      "Supress": "RESISTANT",
+      "Launder": "RESISTANT"
+    },
+    "all_tiers": {
+      "Forge": "live",
+      "Rebind": "live",
+      "Replay": "live",
+      "Supress": "live",
+      "Launder": "live"
+    }
+  },
+  "AWS Step Functions": {
+    "category": "durable",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "RESISTANT",
+      "Rebind": "RESISTANT",
+      "Replay": "RESISTANT",
+      "Supress": "RESISTANT",
+      "Launder": "RESISTANT"
+    },
+    "all_tiers": {
+      "Forge": "live",
+      "Rebind": "live",
+      "Replay": "live",
+      "Supress": "live",
+      "Launder": "live"
+    }
+  },
+  "n8n": {
+    "category": "durable",
+    "native_exposed_techniques": [
+      "Forge"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "modeled",
+      "Replay": "modeled",
+      "Supress": "modeled",
+      "Launder": "modeled"
+    }
+  },
+  "Kestra": {
+    "category": "orchestration",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "live",
+      "Rebind": "live-flaky",
+      "Replay": "live",
+      "Supress": "live-flaky",
+      "Launder": "live-flaky"
+    }
+  },
+  "Flowable": {
+    "category": "orchestration",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "live",
+      "Rebind": "live",
+      "Replay": "live",
+      "Supress": "live",
+      "Launder": "live"
+    }
+  },
+  "Conductor OSS": {
+    "category": "orchestration",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "EXPOSED",
+      "Replay": "EXPOSED",
+      "Supress": "EXPOSED",
+      "Launder": "EXPOSED"
+    },
+    "all_tiers": {
+      "Forge": "live",
+      "Rebind": "live-flaky",
+      "Replay": "live",
+      "Supress": "live",
+      "Launder": "live"
+    }
+  },
+  "Gitea": {
+    "category": "vcs-gate",
+    "native_exposed_techniques": [
+      "Forge"
+    ],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "INCONCLUSIVE",
+      "Replay": "INCONCLUSIVE",
+      "Supress": "INCONCLUSIVE",
+      "Launder": "RESISTANT"
+    },
+    "all_tiers": {
+      "Forge": "native",
+      "Rebind": "live",
+      "Replay": "live",
+      "Supress": "live",
+      "Launder": "live"
+    }
+  },
+  "Atlantis": {
+    "category": "vcs-gate",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "INCONCLUSIVE",
+      "Replay": "INCONCLUSIVE",
+      "Supress": "INCONCLUSIVE",
+      "Launder": "RESISTANT"
+    },
+    "all_tiers": {
+      "Forge": "live",
+      "Rebind": "live",
+      "Replay": "live",
+      "Supress": "live",
+      "Launder": "live-inconclusive"
+    }
+  },
+  "Dify": {
+    "category": "out-of-scope",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "N/A",
+      "Replay": "N/A",
+      "Supress": "N/A",
+      "Launder": "N/A"
+    },
+    "all_tiers": {
+      "Forge": "modeled",
+      "Rebind": "out-of-scope",
+      "Replay": "out-of-scope",
+      "Supress": "out-of-scope",
+      "Launder": "out-of-scope"
+    }
+  },
+  "OpenHands": {
+    "category": "out-of-scope",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "N/A",
+      "Replay": "N/A",
+      "Supress": "N/A",
+      "Launder": "N/A"
+    },
+    "all_tiers": {
+      "Forge": "modeled",
+      "Rebind": "out-of-scope",
+      "Replay": "out-of-scope",
+      "Supress": "out-of-scope",
+      "Launder": "out-of-scope"
+    }
+  },
+  "Kogito": {
+    "category": "out-of-scope",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "N/A",
+      "Replay": "N/A",
+      "Supress": "N/A",
+      "Launder": "N/A"
+    },
+    "all_tiers": {
+      "Forge": "modeled",
+      "Rebind": "out-of-scope",
+      "Replay": "out-of-scope",
+      "Supress": "out-of-scope",
+      "Launder": "out-of-scope"
+    }
+  },
+  "midPoint": {
+    "category": "out-of-scope",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "N/A",
+      "Replay": "N/A",
+      "Supress": "N/A",
+      "Launder": "N/A"
+    },
+    "all_tiers": {
+      "Forge": "modeled",
+      "Rebind": "out-of-scope",
+      "Replay": "out-of-scope",
+      "Supress": "out-of-scope",
+      "Launder": "out-of-scope"
+    }
+  },
+  "FlowiseAI": {
+    "category": "out-of-scope",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "EXPOSED",
+      "Rebind": "N/A",
+      "Replay": "N/A",
+      "Supress": "N/A",
+      "Launder": "N/A"
+    },
+    "all_tiers": {
+      "Forge": "vendor",
+      "Rebind": "out-of-scope",
+      "Replay": "out-of-scope",
+      "Supress": "out-of-scope",
+      "Launder": "out-of-scope"
+    }
+  },
+  "CAMEL": {
+    "category": "out-of-scope",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "N/A",
+      "Rebind": "N/A",
+      "Replay": "N/A",
+      "Supress": "N/A",
+      "Launder": "N/A"
+    },
+    "all_tiers": {
+      "Forge": "out-of-scope",
+      "Rebind": "out-of-scope",
+      "Replay": "out-of-scope",
+      "Supress": "out-of-scope",
+      "Launder": "out-of-scope"
+    }
+  },
+  "Langroid": {
+    "category": "out-of-scope",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "N/A",
+      "Rebind": "N/A",
+      "Replay": "N/A",
+      "Supress": "N/A",
+      "Launder": "N/A"
+    },
+    "all_tiers": {
+      "Forge": "out-of-scope",
+      "Rebind": "out-of-scope",
+      "Replay": "out-of-scope",
+      "Supress": "out-of-scope",
+      "Launder": "out-of-scope"
+    }
+  },
+  "Jenkins": {
+    "category": "out-of-scope",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "RESISTANT",
+      "Rebind": "N/A",
+      "Replay": "N/A",
+      "Supress": "N/A",
+      "Launder": "N/A"
+    },
+    "all_tiers": {
+      "Forge": "modeled",
+      "Rebind": "out-of-scope",
+      "Replay": "out-of-scope",
+      "Supress": "out-of-scope",
+      "Launder": "out-of-scope"
+    }
+  },
+  "GoCD": {
+    "category": "out-of-scope",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "RESISTANT",
+      "Rebind": "N/A",
+      "Replay": "N/A",
+      "Supress": "N/A",
+      "Launder": "N/A"
+    },
+    "all_tiers": {
+      "Forge": "modeled",
+      "Rebind": "out-of-scope",
+      "Replay": "out-of-scope",
+      "Supress": "out-of-scope",
+      "Launder": "out-of-scope"
+    }
+  },
+  "Gerrit": {
+    "category": "out-of-scope",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "RESISTANT",
+      "Rebind": "N/A",
+      "Replay": "N/A",
+      "Supress": "N/A",
+      "Launder": "N/A"
+    },
+    "all_tiers": {
+      "Forge": "modeled",
+      "Rebind": "out-of-scope",
+      "Replay": "out-of-scope",
+      "Supress": "out-of-scope",
+      "Launder": "out-of-scope"
+    }
+  },
+  "Azure Data Factory": {
+    "category": "out-of-scope",
+    "native_exposed_techniques": [],
+    "all_verdicts": {
+      "Forge": "INCONCLUSIVE",
+      "Rebind": "N/A",
+      "Replay": "N/A",
+      "Supress": "N/A",
+      "Launder": "N/A"
+    },
+    "all_tiers": {
+      "Forge": "modeled",
+      "Rebind": "out-of-scope",
+      "Replay": "out-of-scope",
+      "Supress": "out-of-scope",
+      "Launder": "out-of-scope"
+    }
+  }
+}
