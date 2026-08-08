@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/logo.svg" alt="Vyrion" width="180"/>
+<img src="docs/assets/logo.png" alt="Vyrion" width="180"/>
 
 # Vyrion
 
