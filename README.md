@@ -2,8 +2,6 @@
 
 <img src="docs/assets/logo.png" alt="Vyrion" width="180"/>
 
-# Vyrion
-
 **Find and fix Ghost Approvals: forged human-approval bypasses in AI agent, workflow, and CI/CD systems.**
 
 [![Version](https://img.shields.io/badge/version-0.2.0--beta-6D4AFF)](https://github.com/Uvi-12/vyrion/releases)
